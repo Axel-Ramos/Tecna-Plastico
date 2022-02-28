@@ -1,0 +1,179 @@
+*{
+    margin: 0%;
+}
+/*CSS del header*/
+header{
+    background-color: #eee;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
+}
+div{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+div nav ul{
+    list-style-type: none;
+    display: flex;
+}
+div nav ul li{
+    margin: 0 15px;
+}
+div nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 15px;
+    background-color: #333c87;
+    color: #eee;
+    border-radius: 35px;
+}
+.menu{
+    display: none;
+}
+/*CSS del main*/
+main{
+    background-color: #333c87;
+    color: #eee;
+    height: 100vh;
+}
+h1{
+    text-decoration: underline;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+h2{
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(236, 236, 125);
+}
+iframe{
+   margin-bottom: 15px;
+   margin-left: 40px;
+}
+/*CSS de la pagina Producto*/
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+section img{
+    margin-bottom: 20px;
+}
+section nav{
+    display: flex;
+    justify-content: center;
+}
+section nav ul{
+    list-style-type: none;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+/*CSS de la pagina Ficha Tecnica*/
+.ficha{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    align-items: center;
+    grid-template-rows: 200px;
+    padding: 25px;   
+}
+.ficha__imagen1{
+    width: 350px;
+    height: 200px;
+    grid-area: 2/2/3/4;
+    padding: 25px; 
+}
+.ficha__imagen2{
+    width: 350px;
+    height: 200px;
+    padding: 25px; 
+    
+}
+.ficha__texto1{
+    font-size: xx-large;
+    grid-area: 1/2/2/4;
+    width: 80%;
+}
+.ficha__texto2{
+    font-size:xx-large;
+    grid-area: 2/1/4/2;
+}
+/*CSS de la pagina Contacto*/
+form div{
+    display: flex;    
+}
+form div nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: x-large;
+}
+form div nav label{
+    margin-top: 15px;
+}
+form ul{
+    display: flex;
+    font-size: larger;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.lista{
+    list-style-type: none;
+    font-size: 25px;
+}
+/*CSS del footer*/
+footer{
+    background-color: #eee;
+}
+div ul{
+    list-style-type: none;
+}
+/*CSS del Media*/
+@media (max-width: 950px){
+    .ficha__texto1{
+        font-size: medium;
+        max-width: 250px;
+    }
+    .ficha__texto2{
+        font-size: medium;
+        max-width: 350px;
+        height: max-content;
+    }
+    .ficha__imagen1{
+        max-width: 150px;
+    }
+    .ficha__imagen2{
+        max-width: 150px;
+    }
+    .ficha__imagen3 {
+       max-width: 350px;
+    }
+    div nav{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    footer div{
+        display: block;
+    }
+}
+@media (max-width: 666px){
+    iframe{
+        width: 300px;
+        height: 250px;
+    }
+    .ficha{
+        display: flex
+    }
+
+  
+}
