@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TECNA Plásticos</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
-        <div>
+        <!-- <div>
             <img src="../Imagenes/logo-tecna.jpg" alt="Logo Fabrica" width="80" height="60">
             <nav>
                 <ul>
@@ -21,7 +22,35 @@
                 </ul>
             </nav>
         </div>
-    <hr>
+    <hr> -->
+    <nav class="navbar navbar-expand-lg navbar-blue-700 bg-light">
+        <div class="container-fluid">
+          <img class="navbar-brand" src="../Imagenes/logo-tecna.jpg" alt="Logo Fabrica" width="80" height="60">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./informacion.html">Informacion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
         <h1>FICHA TECNICA</h1>
@@ -41,8 +70,31 @@
         <hr>
     </main>
     <footer>
-        <hr>
-        <div>
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <img src="../Imagenes/logo-tecna.jpg" alt="Logo Fabrica" width="80" height="60">
+              </div>
+              <div class="col">
+                <ul>
+                    <h4>Contacto:</h4>
+                    <li>+54 9 11********</li>
+                    <li>************@gmail.com</li>         
+                </ul>
+              </div>
+              <div class="col">
+                <table>
+                    <tr>
+                       <td><img src="../Imagenes/logo-facebook" alt="Logo Facebook" width="20" height="20"></td>
+                       <td>Tecna Plastico</td>
+                       <td><img src="../Imagenes/logo-instagram.jpg" alt="Logo Instagram" width="40" height="40"></td>
+                       <td>Tecna Plastico</td>
+                   </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        <!-- <div>
             <img src="../Imagenes/logo-tecna.jpg" alt="Logo Fabrica" width="80" height="60">
                 <ul>
                     <h4>Contacto:</h4>
@@ -57,7 +109,7 @@
                         <td>Tecna Plastico</td>
                     </tr>
             </table>
-        </div>
+        </div> -->
     </footer>
 </body>
 </html>
