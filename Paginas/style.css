@@ -63,12 +63,12 @@ section img{
     margin-bottom: 20px;
     height: 150px;
     width: 150px;
-    transition: height 1s;
+    /* transition: height 1s; */
 }
-section img:hover{
+/* section img:hover{
     height: 300px;
     width: 300px;
-}
+} */
 section nav{
     display: flex;
     justify-content: center;
@@ -136,9 +136,9 @@ form ul{
     font-size: 25px;
 } */
 /*CSS del footer*/
-footer{
+/* footer{
     background-color: #eee;
-}
+} */
 div ul{
     list-style-type: none;
 }
