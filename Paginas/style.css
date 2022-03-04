@@ -1,8 +1,8 @@
-*{
+/* *{
     margin: 0%;
-}
+} */
 /*CSS del header*/
-header{
+/* header{
     background-color: #eee;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
 }
@@ -31,7 +31,7 @@ div nav ul li a{
 }
 .menu{
     display: none;
-}
+} */
 /*CSS del main*/
 main{
     background-color: #333c87;
@@ -63,12 +63,12 @@ section img{
     margin-bottom: 20px;
     height: 150px;
     width: 150px;
-    transition: height 1s;
+    /* transition: height 1s; */
 }
-section img:hover{
+/* section img:hover{
     height: 300px;
     width: 300px;
-}
+} */
 section nav{
     display: flex;
     justify-content: center;
@@ -111,7 +111,7 @@ section nav ul{
     grid-area: 2/1/4/2;
 }
 /*CSS de la pagina Contacto*/
-form div{
+/* form div{
     display: flex;    
 }
 form div nav{
@@ -134,16 +134,16 @@ form ul{
 .lista{
     list-style-type: none;
     font-size: 25px;
-}
+} */
 /*CSS del footer*/
-footer{
+/* footer{
     background-color: #eee;
-}
+} */
 div ul{
     list-style-type: none;
 }
 /*CSS del Media*/
-@media (max-width: 950px){
+/* @media (max-width: 950px){
     .ficha__texto1{
         font-size: medium;
         max-width: 250px;
@@ -171,8 +171,8 @@ div ul{
     footer div{
         display: block;
     }
-}
-@media (max-width: 666px){
+} */
+/* @media (max-width: 666px){
     iframe{
         width: 300px;
         height: 250px;
@@ -182,4 +182,4 @@ div ul{
     }
 
   
-}
+} */
