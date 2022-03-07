@@ -76,11 +76,12 @@ section nav{
 section nav ul{
     list-style-type: none;
     padding-left: 10px;
+    margin-left: 50px;
     margin-bottom: 20px;
     font-size: 25px;
 }
 /*CSS de la pagina Ficha Tecnica*/
-.ficha{
+/* .ficha{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -109,7 +110,7 @@ section nav ul{
 .ficha__texto2{
     font-size:xx-large;
     grid-area: 2/1/4/2;
-}
+} */
 /*CSS de la pagina Contacto*/
 /* form div{
     display: flex;    
@@ -143,43 +144,8 @@ div ul{
     list-style-type: none;
 }
 /*CSS del Media*/
-/* @media (max-width: 950px){
-    .ficha__texto1{
-        font-size: medium;
-        max-width: 250px;
-    }
-    .ficha__texto2{
-        font-size: medium;
-        max-width: 350px;
-        height: max-content;
-    }
-    .ficha__imagen1{
-        max-width: 150px;
-    }
-    .ficha__imagen2{
-        max-width: 150px;
-    }
-    .ficha__imagen3 {
-       max-width: 350px;
-    }
-    div nav{
-        display: none;
-    }
-    .menu{
-        display: none;
-    }
-    footer div{
-        display: block;
-    }
-} */
-/* @media (max-width: 666px){
-    iframe{
-        width: 300px;
-        height: 250px;
-    }
-    .ficha{
-        display: flex
-    }
-
-  
-} */
+@media (max-width: 792px){
+      .ficha{
+          display:contents;
+      }
+ }     
