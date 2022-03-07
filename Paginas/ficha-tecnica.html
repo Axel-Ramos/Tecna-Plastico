@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TECNA Plásticos</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -36,7 +37,7 @@
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <button class="btn btn-outline-primary" type="submit">Search</button>
             </form>
           </div>
         </div>
@@ -45,19 +46,63 @@
     <main>
         <h1>FICHA TECNICA</h1>
         <h2>Injeccion de Plastico</h2>
-        <section class="ficha">
-            <img class="d-flex justify-content-start" src="../Imagenes/maquina1.jpg" alt="Imagen Máquina">
-            <img class="ficha__imagen1" src="../Imagenes/maquina2.jpg" alt="Imagen Máquina">
-            <img class="ficha__imagen2" src="../Imagenes/maquina3.jpg" alt="Imagen Máquina">
-            <p class="ficha__texto1">
-                La inyección de plástico es un proceso que permite el moldeado de piezas. A través de un molde se inyecta a presión un polímero que se suministra en gránulos. </p>
-            <p class="ficha__texto2">
+        <!-- <section class="container-fluid">
+          <p class="container-fluid">
+              La inyección de plástico es un proceso que permite el moldeado de piezas. A través de un molde se inyecta a presión un polímero que se suministra en gránulos. </p>
+            <img class="d-flex justify-content-start container-fluid" src="../Imagenes/maquina1.jpg" alt="Imagen Máquina">
+            <p class="container-fluid">
                 El proceso o ciclo de inyección se realiza en 4 fases sincronizadas: 
                 Cierre del molde, se suministra el polímero en la unidad de inyección y se cierra el molde por presión. 
                 Inyección, se inyecta el plástico a través de una boquilla dentro del molde, luego para lograr que la pieza tenga las dimensiones deseadas, se mantiene la presión. 
                 Enfriamiento, la pieza se mantiene en el molde hasta enfriarse. Apertura y expulsión de la pieza, el molde se abre y se libera la pieza.</p>
-        </section>
-        <hr>
+            <img class="container-fluid" src="../Imagenes/maquina2.jpg" alt="Imagen Máquina">
+            <img class="container-fluid" src="../Imagenes/maquina3.jpg" alt="Imagen Máquina">
+        </section> -->
+        <!-- <div class="grid">
+          <div class="g-col-6">
+            <p class="container-fluid">
+             La inyección de plástico es un proceso que permite el moldeado de piezas. A través de un molde se inyecta a presión un polímero que se suministra en gránulos. </p>
+          </div>
+          <div class="g-col-6">
+            <img class="container-fluid" src="../Imagenes/maquina1.jpg" alt="Imagen Máquina">
+          </div>
+          <div class="g-col-6">
+            <p class="container-fluid">
+            El proceso o ciclo de inyección se realiza en 4 fases sincronizadas: 
+            Cierre del molde, se suministra el polímero en la unidad de inyección y se cierra el molde por presión. 
+            Inyección, se inyecta el plástico a través de una boquilla dentro del molde, luego para lograr que la pieza tenga las dimensiones deseadas, se mantiene la presión. 
+            Enfriamiento, la pieza se mantiene en el molde hasta enfriarse. Apertura y expulsión de la pieza, el molde se abre y se libera la pieza.</p>
+          </div>
+          <div class="g-col-6">
+            <img class="container-fluid" src="../Imagenes/maquina2.jpg" alt="Imagen Máquina">
+            <img class="container-fluid" src="../Imagenes/maquina3.jpg" alt="Imagen Máquina">
+          </div>
+        </div> -->
+        <div class="container ficha">
+          <div class="row">
+            <div class="col-sm">
+              <img class="img-fluid rounded float-start" src="../Imagenes/maquina1.jpg" alt="Imagen Máquina">
+            </div>
+            <div class="col">
+              <p class="container-fluid fs-3">
+                La inyección de plástico es un proceso que permite el moldeado de piezas. A través de un molde se inyecta a presión un polímero que se suministra en gránulos. </p>  
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p class="container-fluid fs-3">
+                El proceso o ciclo de inyección se realiza en 4 fases sincronizadas: 
+                Cierre del molde, se suministra el polímero en la unidad de inyección y se cierra el molde por presión. 
+                Inyección, se inyecta el plástico a través de una boquilla dentro del molde, luego para lograr que la pieza tenga las dimensiones deseadas, se mantiene la presión. 
+                Enfriamiento, la pieza se mantiene en el molde hasta enfriarse. Apertura y expulsión de la pieza, el molde se abre y se libera la pieza.</p>
+            </div>
+            <div class="col-sm">
+              <img class="img-fluid pb-3" src="../Imagenes/maquina2.jpg" alt="Imagen Máquina">
+              <img class="img-fluid" src="../Imagenes/maquina3.jpg" alt="Imagen Máquina">
+            </div>
+            </div>
+          </div>
+        </div>
     </main>
     <footer class="bg-light">
         <div class="container-fluid">
