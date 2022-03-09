@@ -1,0 +1,23 @@
+{
+  "name": "1er-entrega",
+  "version": "1.0.0",
+  "description": "Este repositorio es para que puedan ver mis avances en el proyecto final.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass":"node-sass sass/main.scss CSS-paginas/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axel-Ramos/Proyecto-Coder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Axel-Ramos/Proyecto-Coder/issues"
+  },
+  "homepage": "https://github.com/Axel-Ramos/Proyecto-Coder#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
