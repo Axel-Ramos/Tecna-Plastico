@@ -24,10 +24,9 @@
   flex-direction: row;
   flex-wrap: wrap;
   margin-left: 20px; }
-
-.producto__imagen {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-left: 20px;
-  padding: 5px; }
+  .producto__imagen {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    padding: 5px; }
