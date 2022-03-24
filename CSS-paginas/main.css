@@ -18,6 +18,16 @@
   margin-bottom: 15px;
   margin-left: 40px; }
 
+.imageni {
+  border-radius: 15px;
+  height: 250px;
+  width: 250px;
+  transition: 1s; }
+
+.imageni:hover {
+  height: 400px;
+  width: 400px; }
+
 /*Pagina Productos*/
 .producto {
   display: flex;
@@ -28,5 +38,21 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 20px;
-    padding: 5px; }
+    margin-left: 10px;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    transition: 1s; }
+  .producto__imagen:hover {
+    height: 250px;
+    width: 250px; }
+  .producto__texto {
+    font-size: 20px; }
+
+.fichaimagen {
+  margin-bottom: 15px;
+  border-radius: 15px;
+  height: 250px;
+  width: 450px;
+  display: block; }
