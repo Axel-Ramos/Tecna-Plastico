@@ -17,3 +17,13 @@
     margin-bottom: 15px;
     margin-left: 40px;
 }
+.imageni{
+    border-radius: 15px;
+    height: 250px;
+    width: 250px;
+    transition: 1s;
+}
+.imageni:hover{
+    height: 400px;
+    width: 400px;
+}   
